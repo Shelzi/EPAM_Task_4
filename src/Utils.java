@@ -31,7 +31,7 @@ class Utils {
 
     protected static void findEqualTrial(Trial[] trials, Trial keyTrial) {
         for (Trial trial : trials) {
-            if (trial.getClass() == Trial.class && trial.equals(keyTrial)) {
+            if (trial.equals(keyTrial)) {
                 System.out.println(trial);
             }
         }
