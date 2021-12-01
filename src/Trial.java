@@ -73,9 +73,4 @@ public class Trial {
         return mark1 == trial.mark1 && mark2 == trial.mark2 &&
                 (Objects.equals(this.name, trial.name));
     }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(name, mark1, mark2);
-    }
 }

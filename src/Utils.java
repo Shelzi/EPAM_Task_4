@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 class Utils {
     protected static void printTrials(Trial[] trials) {
         for (Trial trial : trials) {

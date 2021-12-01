@@ -11,7 +11,6 @@ class Runner {
                 new ExtraTrial("Megabrain", 90, 90, 60),
                 new ExtraTrial("Smartguy", 89, 90, 80)
         };
-
         Utils.printTrials(trials);
         System.out.println();
         Utils.printTrials((Utils.trialsHalfAveragePassMark(trials)));
