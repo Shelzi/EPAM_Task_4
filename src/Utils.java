@@ -10,7 +10,7 @@ class Utils {
     protected static Trial[] trialsHalfAveragePassMark(Trial[] trials) {
         Trial[] temp = new Trial[trials.length];
         for (int i = 0; i < trials.length; i++) {
-            if (trials[i].findAverage() >= Trial.getPassMark() / 2.0) {
+            if (trials[i].findAverage() <= Trial.getPassMark() / 2.0) {
                 temp[i] = trials[i];
             }
         }
